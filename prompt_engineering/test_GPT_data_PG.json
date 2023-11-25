@@ -1,0 +1,87 @@
+[
+    {
+        "hyp": "May I speak to you frankly?",
+        "ref": "either",
+        "src": "May I speak candidly?",
+        "tgt": "Permission to speak freely?",
+        "model": "",
+        "task": "PG",
+        "labels": [
+          "Hallucination",
+          "Not Hallucination",
+          "Not Hallucination",
+          "Not Hallucination",
+          "Not Hallucination"
+        ],
+        "label": "Not Hallucination",
+        "p(Hallucination)": 0.2
+      },
+      {
+        "hyp": "You've got the heat, huh?",
+        "ref": "either",
+        "src": "Do you have the fever?",
+        "tgt": "Have you got a temperature?",
+        "model": "",
+        "task": "PG",
+        "labels": [
+          "Hallucination",
+          "Not Hallucination",
+          "Hallucination",
+          "Hallucination",
+          "Not Hallucination"
+        ],
+        "label": "Hallucination",
+        "p(Hallucination)": 0.6
+      },
+      {
+        "hyp": "This isn't your house anymore.",
+        "ref": "either",
+        "src": "This is not your house anymore.",
+        "tgt": "You don't live here anymore.",
+        "model": "",
+        "task": "PG",
+        "labels": [
+          "Not Hallucination",
+          "Not Hallucination",
+          "Not Hallucination",
+          "Not Hallucination",
+          "Not Hallucination"
+        ],
+        "label": "Not Hallucination",
+        "p(Hallucination)": 0.0
+      },
+      {
+        "hyp": "I'll be right.",
+        "ref": "either",
+        "src": "I'll be right with you.",
+        "tgt": "See you in a moment.",
+        "model": "",
+        "task": "PG",
+        "labels": [
+          "Hallucination",
+          "Hallucination",
+          "Hallucination",
+          "Not Hallucination",
+          "Hallucination"
+        ],
+        "label": "Hallucination",
+        "p(Hallucination)": 0.8
+      },
+      {
+        "hyp": "I'm just a little concerned.",
+        "ref": "either",
+        "src": "I'm just concerned.",
+        "tgt": "I just worry, you know?",
+        "model": "",
+        "task": "PG",
+        "labels": [
+          "Hallucination",
+          "Hallucination",
+          "Hallucination",
+          "Hallucination",
+          "Hallucination"
+        ],
+        "label": "Hallucination",
+        "p(Hallucination)": 1.0
+      }
+]

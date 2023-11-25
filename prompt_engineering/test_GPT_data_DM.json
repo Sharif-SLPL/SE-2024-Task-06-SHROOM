@@ -1,0 +1,87 @@
+[
+  {
+    "hyp": "(slang, uncountable) The act of smoking marijuana.",
+    "ref": "tgt",
+    "src": "The artist took a thoughtful <define> toke </define> off the joint , then passed it along .",
+    "tgt": "(slang) A puff of marijuana.",
+    "model": "",
+    "task": "DM",
+    "labels": [
+      "Not Hallucination",
+      "Not Hallucination",
+      "Hallucination",
+      "Hallucination",
+      "Not Hallucination"
+    ],
+    "label": "Not Hallucination",
+    "p(Hallucination)": 0.4
+  },
+  {
+    "hyp": "(intransitive) To travel by trampoline.",
+    "ref": "tgt",
+    "src": "see Wikipedia : <define> tramp </define> steamer",
+    "tgt": "Any ship which does not have a fixed schedule or published ports of call.",
+    "model": "",
+    "task": "DM",
+    "labels": [
+      "Hallucination",
+      "Hallucination",
+      "Not Hallucination",
+      "Hallucination",
+      "Hallucination"
+    ],
+    "label": "Hallucination",
+    "p(Hallucination)": 0.8
+  },
+  {
+    "hyp": "One who or that which cradles.",
+    "ref": "tgt",
+    "src": "For use in a nursery for cradling a baby to sleep , a baby <define> cradler </define> comprising , in combination , a stand embodying a mobile base , uprights attached to and rising perpendicularly from the base and having axially aligned bearings ,   [ \ufffd ]",
+    "tgt": "One who or that which cradles.",
+    "model": "",
+    "task": "DM",
+    "labels": [
+      "Not Hallucination",
+      "Not Hallucination",
+      "Not Hallucination",
+      "Not Hallucination",
+      "Not Hallucination"
+    ],
+    "label": "Not Hallucination",
+    "p(Hallucination)": 0.0
+  },
+  {
+    "hyp": "(biochemistry, immunology) The degradation of the immune system.",
+    "ref": "tgt",
+    "src": "A special group must be mentioned : 4 . artificial <define> immunodegradation </define> ( immunosuppression )",
+    "tgt": "(immunology, rare) Degradation of or by the immune system.",
+    "model": "",
+    "task": "DM",
+    "labels": [
+      "Not Hallucination",
+      "Not Hallucination",
+      "Hallucination",
+      "Not Hallucination",
+      "Not Hallucination"
+    ],
+    "label": "Not Hallucination",
+    "p(Hallucination)": 0.2
+  },
+  {
+    "hyp": "Alternative form of bandslash",
+    "ref": "tgt",
+    "src": "Even more amusing is that those doing the wishful humping in <define> bandslash </define> are n't your usual pin - ups . Bandslash has gone indie . This is a shadowy world where the boys in Franz Ferdinand are each others ' fetish objects , and former Libertines Carl Barat and Pete Doherty , lovers .",
+    "tgt": "(fandom slang) Slash fan fiction which pairs real musicians, especially ones belonging to the same group.",
+    "model": "",
+    "task": "DM",
+    "labels": [
+      "Hallucination",
+      "Hallucination",
+      "Hallucination",
+      "Hallucination",
+      "Hallucination"
+    ],
+    "label": "Hallucination",
+    "p(Hallucination)": 1.0
+  }
+]

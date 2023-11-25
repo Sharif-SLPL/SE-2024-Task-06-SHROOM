@@ -1,0 +1,87 @@
+[
+    {
+        "hyp": "The fat of the cow is another example of the result of acidic or chemical action.",
+        "ref": "either",
+        "src": "Owalwa ya dikovi ibhiluka kifwa kyengi kitunda mu asido mba dimatekenu (aicino) o ima ya kimiku.",
+        "tgt": "The cabbage juice changes color depending on how acidic or basic (alkaline) the chemical is.",
+        "model": "facebook/nllb-200-distilled-600M",
+        "task": "MT",
+        "labels": [
+          "Not Hallucination",
+          "Hallucination",
+          "Hallucination",
+          "Hallucination",
+          "Hallucination"
+        ],
+        "label": "Hallucination",
+        "p(Hallucination)": 0.8
+      },
+      {
+        "hyp": "No child should grow up in an environment that is stimulating, educational, or otherwise successful.",
+        "ref": "either",
+        "src": "Nisciun figgeu o dovieiva mai cresce int\u2019un ambiente che o no segge stimolante, de cua e educativo, ma succede.",
+        "tgt": "No child should ever have to grow up in an environment that is not nurturing, caring, and educational, but they do.",
+        "model": "facebook/nllb-200-distilled-600M",
+        "task": "MT",
+        "labels": [
+          "Hallucination",
+          "Hallucination",
+          "Hallucination",
+          "Hallucination",
+          "Hallucination"
+        ],
+        "label": "Hallucination",
+        "p(Hallucination)": 1.0
+      },
+      {
+        "hyp": "Nor does it have the right to refuse interstate tax and tariff laws.",
+        "ref": "either",
+        "src": "Ia juga tidak mempunyai hak untuk menolak undang-undang cukai dan tarif antara negeri.",
+        "tgt": "It also had no authority to override tax laws and tariffs between states.",
+        "model": "facebook/nllb-200-distilled-600M",
+        "task": "MT",
+        "labels": [
+          "Not Hallucination",
+          "Not Hallucination",
+          "Not Hallucination",
+          "Not Hallucination",
+          "Not Hallucination"
+        ],
+        "label": "Not Hallucination",
+        "p(Hallucination)": 0.0
+      },
+      {
+        "hyp": "The advantage of most insects is that they can attach their fins to the body.",
+        "ref": "either",
+        "src": "\u0411\u0430\u0440\u0442\u0430\u0440\u0438\u0438 \u0430\u043a\u0441\u0430\u0440\u0438 \u04b3\u0430\u0448\u0430\u0440\u043e\u0442\u04b3\u043e \u0434\u0430\u0440 \u043e\u043d \u043c\u0435\u0431\u043e\u0448\u0430\u0434, \u043a\u0438 \u0431\u043e\u043b\u04b3\u043e\u0438 \u0445\u0443\u0434\u0440\u043e \u0434\u0430\u0440 \u0442\u0430\u043d\u0430\u0438 \u0431\u0430\u0434\u0430\u043d\u0430\u0448\u043e\u043d \u043c\u0430\u04b3\u043a\u0430\u043c \u043a\u0430\u0440\u0434\u0430 \u043c\u0435\u0442\u0430\u0432\u043e\u043d\u0430\u043d\u0434.",
+        "tgt": "Most insects have the advantage of being able to fold their wings back along the body.",
+        "model": "facebook/nllb-200-distilled-600M",
+        "task": "MT",
+        "labels": [
+          "Not Hallucination",
+          "Not Hallucination",
+          "Hallucination",
+          "Hallucination",
+          "Hallucination"
+        ],
+        "label": "Hallucination",
+        "p(Hallucination)": 0.6
+      },
+      {
+        "hyp": "Originally Paris was considered the modern fashion capital of the world, Constantinople was considered the fashion capital of the European Union.",
+        "ref": "either",
+        "src": "\u0627\u0648\u0644\u064a\u0647\u06bd \u06a4\u0627\u0631\u064a\u0633 \u062f\u064a\u06a4\u064a\u0646\u0646\u062f\u0648\u064a \u062c\u0627\u062f\u064a \u0627\u064a\u0628\u0648 \u0643\u0648\u062a\u0627 \u0645\u0648\u062f\u064a \u062f\u0648\u0646\u064a\u0627 \u0643\u0648\u062a\u064a\u0645\u06a4\u0648\u0631\u064a\u0631\u060c \u0643\u0648\u0646\u0633\u062a\u0646\u062a\u064a\u0646\u0648\u06a4\u0644 \u062f\u064a\u0623\u06a0\u06ac\u06a4 \u062c\u0627\u062f\u064a \u0627\u064a\u0628\u0648 \u0643\u0648\u062a\u0627 \u0645\u0648\u062f\u064a \u0627\u064a\u0631\u0648\u06a4\u0627 \u0641\u064a\u0627\u0648\u062f\u0644.",
+        "tgt": "In the manner that Paris is known as the fashion capital of the contemporary world, Constantinople was regarded as the fashion capital of feudal Europe.",
+        "model": "facebook/nllb-200-distilled-600M",
+        "task": "MT",
+        "labels": [
+          "Not Hallucination",
+          "Hallucination",
+          "Not Hallucination",
+          "Not Hallucination",
+          "Hallucination"
+        ],
+        "label": "Not Hallucination",
+        "p(Hallucination)": 0.4
+      }
+]
